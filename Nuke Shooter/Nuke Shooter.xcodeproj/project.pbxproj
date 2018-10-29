@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4119C6D41F38D4A5007E0EDC /* expl1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4119C6D31F38D4A5007E0EDC /* expl1.wav */; };
+		4119C6D61F38D7FE007E0EDC /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4119C6D51F38D7FE007E0EDC /* theBoldFont.ttf */; };
+		4119C6D81F38E5A8007E0EDC /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119C6D71F38E5A8007E0EDC /* GameOverScene.swift */; };
+		4193BCF11F3A47F2008ACF0E /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193BCF01F3A47F2008ACF0E /* MainMenuScene.swift */; };
+		41C26BC11F1FE6B30001D639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C26BC01F1FE6B30001D639 /* AppDelegate.swift */; };
+		41C26BC31F1FE6B30001D639 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41C26BC21F1FE6B30001D639 /* GameScene.sks */; };
+		41C26BC51F1FE6B30001D639 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41C26BC41F1FE6B30001D639 /* Actions.sks */; };
+		41C26BC71F1FE6B30001D639 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C26BC61F1FE6B30001D639 /* GameScene.swift */; };
+		41C26BC91F1FE6B30001D639 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C26BC81F1FE6B30001D639 /* GameViewController.swift */; };
+		41C26BCC1F1FE6B30001D639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C26BCA1F1FE6B30001D639 /* Main.storyboard */; };
+		41C26BCE1F1FE6B30001D639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C26BCD1F1FE6B30001D639 /* Assets.xcassets */; };
+		41C26BD11F1FE6B30001D639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C26BCF1F1FE6B30001D639 /* LaunchScreen.storyboard */; };
+		41C26BDC1F1FE6B30001D639 /* Nuke_ShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C26BDB1F1FE6B30001D639 /* Nuke_ShooterTests.swift */; };
+		41C26BE71F1FE6B30001D639 /* Nuke_ShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C26BE61F1FE6B30001D639 /* Nuke_ShooterUITests.swift */; };
+		41C26BF91F1FFCA90001D639 /* MachineGun.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 41C26BF81F1FFCA90001D639 /* MachineGun.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41C26BD81F1FE6B30001D639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C26BB51F1FE6B30001D639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C26BBC1F1FE6B30001D639;
+			remoteInfo = "Nuke Shooter";
+		};
+		41C26BE31F1FE6B30001D639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C26BB51F1FE6B30001D639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C26BBC1F1FE6B30001D639;
+			remoteInfo = "Nuke Shooter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4119C6D31F38D4A5007E0EDC /* expl1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = expl1.wav; sourceTree = "<group>"; };
+		4119C6D51F38D7FE007E0EDC /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		4119C6D71F38E5A8007E0EDC /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		4193BCF01F3A47F2008ACF0E /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		41C26BBD1F1FE6B30001D639 /* Nuke Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nuke Shooter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C26BC01F1FE6B30001D639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41C26BC21F1FE6B30001D639 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		41C26BC41F1FE6B30001D639 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		41C26BC61F1FE6B30001D639 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		41C26BC81F1FE6B30001D639 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		41C26BCB1F1FE6B30001D639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41C26BCD1F1FE6B30001D639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41C26BD01F1FE6B30001D639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41C26BD21F1FE6B30001D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C26BD71F1FE6B30001D639 /* Nuke ShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke ShooterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C26BDB1F1FE6B30001D639 /* Nuke_ShooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nuke_ShooterTests.swift; sourceTree = "<group>"; };
+		41C26BDD1F1FE6B30001D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C26BE21F1FE6B30001D639 /* Nuke ShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke ShooterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C26BE61F1FE6B30001D639 /* Nuke_ShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nuke_ShooterUITests.swift; sourceTree = "<group>"; };
+		41C26BE81F1FE6B30001D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C26BF81F1FFCA90001D639 /* MachineGun.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachineGun.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C26BBA1F1FE6B30001D639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C26BD41F1FE6B30001D639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C26BDF1F1FE6B30001D639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C26BB41F1FE6B30001D639 = {
+			isa = PBXGroup;
+			children = (
+				41C26BBF1F1FE6B30001D639 /* Nuke Shooter */,
+				41C26BDA1F1FE6B30001D639 /* Nuke ShooterTests */,
+				41C26BE51F1FE6B30001D639 /* Nuke ShooterUITests */,
+				41C26BBE1F1FE6B30001D639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C26BBE1F1FE6B30001D639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C26BBD1F1FE6B30001D639 /* Nuke Shooter.app */,
+				41C26BD71F1FE6B30001D639 /* Nuke ShooterTests.xctest */,
+				41C26BE21F1FE6B30001D639 /* Nuke ShooterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C26BBF1F1FE6B30001D639 /* Nuke Shooter */ = {
+			isa = PBXGroup;
+			children = (
+				41C26BC01F1FE6B30001D639 /* AppDelegate.swift */,
+				41C26BC21F1FE6B30001D639 /* GameScene.sks */,
+				41C26BC41F1FE6B30001D639 /* Actions.sks */,
+				4193BCF01F3A47F2008ACF0E /* MainMenuScene.swift */,
+				41C26BC61F1FE6B30001D639 /* GameScene.swift */,
+				4119C6D71F38E5A8007E0EDC /* GameOverScene.swift */,
+				41C26BC81F1FE6B30001D639 /* GameViewController.swift */,
+				41C26BCA1F1FE6B30001D639 /* Main.storyboard */,
+				41C26BF81F1FFCA90001D639 /* MachineGun.m4a */,
+				4119C6D31F38D4A5007E0EDC /* expl1.wav */,
+				4119C6D51F38D7FE007E0EDC /* theBoldFont.ttf */,
+				41C26BCD1F1FE6B30001D639 /* Assets.xcassets */,
+				41C26BCF1F1FE6B30001D639 /* LaunchScreen.storyboard */,
+				41C26BD21F1FE6B30001D639 /* Info.plist */,
+			);
+			path = "Nuke Shooter";
+			sourceTree = "<group>";
+		};
+		41C26BDA1F1FE6B30001D639 /* Nuke ShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				41C26BDB1F1FE6B30001D639 /* Nuke_ShooterTests.swift */,
+				41C26BDD1F1FE6B30001D639 /* Info.plist */,
+			);
+			path = "Nuke ShooterTests";
+			sourceTree = "<group>";
+		};
+		41C26BE51F1FE6B30001D639 /* Nuke ShooterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41C26BE61F1FE6B30001D639 /* Nuke_ShooterUITests.swift */,
+				41C26BE81F1FE6B30001D639 /* Info.plist */,
+			);
+			path = "Nuke ShooterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C26BBC1F1FE6B30001D639 /* Nuke Shooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C26BEB1F1FE6B30001D639 /* Build configuration list for PBXNativeTarget "Nuke Shooter" */;
+			buildPhases = (
+				41C26BB91F1FE6B30001D639 /* Sources */,
+				41C26BBA1F1FE6B30001D639 /* Frameworks */,
+				41C26BBB1F1FE6B30001D639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nuke Shooter";
+			productName = "Nuke Shooter";
+			productReference = 41C26BBD1F1FE6B30001D639 /* Nuke Shooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41C26BD61F1FE6B30001D639 /* Nuke ShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C26BEE1F1FE6B30001D639 /* Build configuration list for PBXNativeTarget "Nuke ShooterTests" */;
+			buildPhases = (
+				41C26BD31F1FE6B30001D639 /* Sources */,
+				41C26BD41F1FE6B30001D639 /* Frameworks */,
+				41C26BD51F1FE6B30001D639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C26BD91F1FE6B30001D639 /* PBXTargetDependency */,
+			);
+			name = "Nuke ShooterTests";
+			productName = "Nuke ShooterTests";
+			productReference = 41C26BD71F1FE6B30001D639 /* Nuke ShooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41C26BE11F1FE6B30001D639 /* Nuke ShooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C26BF11F1FE6B30001D639 /* Build configuration list for PBXNativeTarget "Nuke ShooterUITests" */;
+			buildPhases = (
+				41C26BDE1F1FE6B30001D639 /* Sources */,
+				41C26BDF1F1FE6B30001D639 /* Frameworks */,
+				41C26BE01F1FE6B30001D639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C26BE41F1FE6B30001D639 /* PBXTargetDependency */,
+			);
+			name = "Nuke ShooterUITests";
+			productName = "Nuke ShooterUITests";
+			productReference = 41C26BE21F1FE6B30001D639 /* Nuke ShooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C26BB51F1FE6B30001D639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Francesco Petrini";
+				TargetAttributes = {
+					41C26BBC1F1FE6B30001D639 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5896JP2KYQ;
+						ProvisioningStyle = Automatic;
+					};
+					41C26BD61F1FE6B30001D639 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41C26BBC1F1FE6B30001D639;
+					};
+					41C26BE11F1FE6B30001D639 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41C26BBC1F1FE6B30001D639;
+					};
+				};
+			};
+			buildConfigurationList = 41C26BB81F1FE6B30001D639 /* Build configuration list for PBXProject "Nuke Shooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41C26BB41F1FE6B30001D639;
+			productRefGroup = 41C26BBE1F1FE6B30001D639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C26BBC1F1FE6B30001D639 /* Nuke Shooter */,
+				41C26BD61F1FE6B30001D639 /* Nuke ShooterTests */,
+				41C26BE11F1FE6B30001D639 /* Nuke ShooterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C26BBB1F1FE6B30001D639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4119C6D41F38D4A5007E0EDC /* expl1.wav in Resources */,
+				41C26BCC1F1FE6B30001D639 /* Main.storyboard in Resources */,
+				41C26BC31F1FE6B30001D639 /* GameScene.sks in Resources */,
+				41C26BCE1F1FE6B30001D639 /* Assets.xcassets in Resources */,
+				4119C6D61F38D7FE007E0EDC /* theBoldFont.ttf in Resources */,
+				41C26BF91F1FFCA90001D639 /* MachineGun.m4a in Resources */,
+				41C26BD11F1FE6B30001D639 /* LaunchScreen.storyboard in Resources */,
+				41C26BC51F1FE6B30001D639 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C26BD51F1FE6B30001D639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C26BE01F1FE6B30001D639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C26BB91F1FE6B30001D639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4193BCF11F3A47F2008ACF0E /* MainMenuScene.swift in Sources */,
+				41C26BC71F1FE6B30001D639 /* GameScene.swift in Sources */,
+				41C26BC91F1FE6B30001D639 /* GameViewController.swift in Sources */,
+				4119C6D81F38E5A8007E0EDC /* GameOverScene.swift in Sources */,
+				41C26BC11F1FE6B30001D639 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C26BD31F1FE6B30001D639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C26BDC1F1FE6B30001D639 /* Nuke_ShooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C26BDE1F1FE6B30001D639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C26BE71F1FE6B30001D639 /* Nuke_ShooterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C26BD91F1FE6B30001D639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C26BBC1F1FE6B30001D639 /* Nuke Shooter */;
+			targetProxy = 41C26BD81F1FE6B30001D639 /* PBXContainerItemProxy */;
+		};
+		41C26BE41F1FE6B30001D639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C26BBC1F1FE6B30001D639 /* Nuke Shooter */;
+			targetProxy = 41C26BE31F1FE6B30001D639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41C26BCA1F1FE6B30001D639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C26BCB1F1FE6B30001D639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41C26BCF1F1FE6B30001D639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C26BD01F1FE6B30001D639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C26BE91F1FE6B30001D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41C26BEA1F1FE6B30001D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C26BEC1F1FE6B30001D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5896JP2KYQ;
+				INFOPLIST_FILE = "Nuke Shooter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpetrini.Nuke-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41C26BED1F1FE6B30001D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5896JP2KYQ;
+				INFOPLIST_FILE = "Nuke Shooter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpetrini.Nuke-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41C26BEF1F1FE6B30001D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nuke ShooterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpetrini.Nuke-ShooterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nuke Shooter.app/Nuke Shooter";
+			};
+			name = Debug;
+		};
+		41C26BF01F1FE6B30001D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nuke ShooterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpetrini.Nuke-ShooterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nuke Shooter.app/Nuke Shooter";
+			};
+			name = Release;
+		};
+		41C26BF21F1FE6B30001D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Nuke ShooterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpetrini.Nuke-ShooterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Nuke Shooter";
+			};
+			name = Debug;
+		};
+		41C26BF31F1FE6B30001D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Nuke ShooterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpetrini.Nuke-ShooterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Nuke Shooter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C26BB81F1FE6B30001D639 /* Build configuration list for PBXProject "Nuke Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C26BE91F1FE6B30001D639 /* Debug */,
+				41C26BEA1F1FE6B30001D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C26BEB1F1FE6B30001D639 /* Build configuration list for PBXNativeTarget "Nuke Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C26BEC1F1FE6B30001D639 /* Debug */,
+				41C26BED1F1FE6B30001D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C26BEE1F1FE6B30001D639 /* Build configuration list for PBXNativeTarget "Nuke ShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C26BEF1F1FE6B30001D639 /* Debug */,
+				41C26BF01F1FE6B30001D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C26BF11F1FE6B30001D639 /* Build configuration list for PBXNativeTarget "Nuke ShooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C26BF21F1FE6B30001D639 /* Debug */,
+				41C26BF31F1FE6B30001D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C26BB51F1FE6B30001D639 /* Project object */;
+}
